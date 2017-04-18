@@ -2,6 +2,7 @@
 	var img = document.getElementById('img');
 
 	addEventListener('keydown', encender);
+	addEventListener('keyup', apagar);
 
 	function encender(e) {		
 		var tecla = e.which;
@@ -9,6 +10,11 @@
 		if(e.which >= 65 && e.which <=90) {
 			img.src = n_img;
 		}
-	}		
+	}
+
+	function apagar(e) {
+		img.src = 'img/vacio.gif';
+	}
+
 
 })();
