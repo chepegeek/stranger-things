@@ -15,6 +15,4 @@
 	function apagar(e) {
 		img.src = 'img/vacio.gif';
 	}
-
-
 })();
