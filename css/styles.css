@@ -33,5 +33,4 @@ body, html {
 .txt {
 	font-size: 2rem;
 	text-shadow: rgb(256,256,256) .02rem .02rem .05rem;
-	padding: .5rem;
 }

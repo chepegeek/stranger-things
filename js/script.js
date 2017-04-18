@@ -12,7 +12,7 @@
 		}
 	}
 
-	function apagar(e) {
+	function apagar() {
 		img.src = 'img/vacio.gif';
 	}
 })();
