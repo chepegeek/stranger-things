@@ -4,6 +4,13 @@
 	addEventListener('keydown', encender);
 	addEventListener('keyup', apagar);
 
+	var imgArray = [];
+
+    for (i = 65; i < 91; i++) { 
+      imgArray[i-65] = new Image();
+		  imgArray[i-65].src = "img/"+i+".gif";        
+    }
+
 	function encender(e) {		
 		var tecla = e.which;
 		var n_img = 'img/' + tecla + '.gif';
